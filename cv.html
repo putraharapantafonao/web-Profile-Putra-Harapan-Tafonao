@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV - Putra Harapan Tafonao</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: linear-gradient(135deg, #3b82f6, #60a5fa);
+      color: #fff;
+    }
+    .cv-container {
+      max-width: 1000px;
+      margin: 80px auto;
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.05);
+      padding: 40px;
+      color: #000;
+    }
+    .cv-header {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+    .cv-photo {
+      width: 120px;
+      height: 120px;
+      border-radius: 100px;
+      object-fit: cover;
+      border: 4px solid #3b82f6;
+    }
+    .cv-header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    .cv-header p {
+      margin: 4px 0 0;
+      color: #555;
+    }
+    .cv-section {
+      margin-bottom: 30px;
+    }
+    .cv-section h2 {
+      font-size: 1.2rem;
+      color: #3b82f6;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+    .cv-section ul {
+      padding-left: 20px;
+    }
+    .cv-section li {
+      margin-bottom: 6px;
+    }
+    .skills li {
+      display: inline-block;
+      background: #e0f2fe;
+      padding: 6px 12px;
+      border-radius: 8px;
+      margin: 4px 6px 4px 0;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 600px) {
+      .cv-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .cv-container {
+        padding: 20px;
+        margin: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="cv-container">
+    <div class="cv-header">
+      <img src="images/putra.jpg" alt="Putra Harapan Tafonao" class="cv-photo">
+      <div>
+        <h1>Putra Harapan Tafonao</h1>
+        <p>Mahasiswa Teknik Informatika</p>
+        <p>Universitas Malikussaleh</p>
+      </div>
+    </div>
+
+    <div class="cv-section">
+      <h2>Profil</h2>
+      <p>Mahasiswa aktif jurusan Teknik Informatika dengan ketertarikan besar pada pengembangan web, teknologi informasi, dan pengembangan sistem. Memiliki semangat belajar tinggi, mampu bekerja secara tim, serta aktif dalam organisasi dan kegiatan sosial.</p>
+    </div>
+
+    <div class="cv-section">
+      <h2>Pendidikan</h2>
+      <ul>
+        <li><strong>Universitas Malikussaleh</strong> – Teknik Informatika (2024 – sekarang)</li>
+        <li><strong>SMA Negeri 1 Sungai Aur</strong> – IPA (2021 – 2024)</li>
+      </ul>
+    </div>
+
+    <div class="cv-section">
+      <h2>Keahlian</h2>
+      <ul class="skills">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>PHP & Laravel</li>
+        <li>Python</li>
+        <li>MySQL</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </div>
+
+    <div class="cv-section">
+      <h2>Kontak</h2>
+      <p>Email: putraharapantafonao199@gmail.com</p>
+      <p>Instagram: @putraharapantafonao714</p>
+      <p>GitHub: github.com/putraharapan</p>
+    </div>
+  </div>
+</body>
+</html>
